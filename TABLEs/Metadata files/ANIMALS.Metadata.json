@@ -14,7 +14,7 @@
       "DATA_SCALE": null,
       "DATA_TYPE": "NUMBER",
       "DATA_TYPE_MOD": null,
-      "DEFAULT_LENGTH": 38.0,
+      "DEFAULT_LENGTH": 40.0,
       "DEFAULT_ON_NULL": "NO",
       "Encrypted": [],
       "HIDDEN_COLUMN": "NO",
@@ -24,7 +24,7 @@
           "COLUMN_NAME": "PERSON_ID",
           "GENERATION_TYPE": "BY DEFAULT",
           "IDENTITY_OPTIONS": "START WITH: 1, INCREMENT BY: 1, MAX_VALUE: 9999999999999999999999999999, MIN_VALUE: 1, CYCLE_FLAG: N, CACHE_SIZE: 20, ORDER_FLAG: N, SCALE_FLAG: N, EXTEND_FLAG: N, SESSION_FLAG: N, KEEP_VALUE: N",
-          "SEQUENCE_NAME": "ISEQ$$_73849",
+          "SEQUENCE_NAME": "ISEQ$$_73907",
           "TABLE_NAME": "ANIMALS"
         }
       ],
@@ -103,6 +103,38 @@
       "UNUSABLE_BEGINNING": null,
       "USER_GENERATED": "YES",
       "VIRTUAL_COLUMN": "NO"
+    },
+    {
+      "CHAR_LENGTH": 0.0,
+      "CHAR_USED": null,
+      "CHARACTER_SET_NAME": null,
+      "COLLATED_COLUMN_ID": null,
+      "COLLATION": null,
+      "COLUMN_ID": 4.0,
+      "COLUMN_NAME": "FEATURE_2",
+      "DATA_DEFAULT": null,
+      "DATA_LENGTH": 7.0,
+      "DATA_PRECISION": null,
+      "DATA_SCALE": null,
+      "DATA_TYPE": "DATE",
+      "DATA_TYPE_MOD": null,
+      "DEFAULT_LENGTH": null,
+      "DEFAULT_ON_NULL": "NO",
+      "Encrypted": [],
+      "HIDDEN_COLUMN": "NO",
+      "HISTOGRAM": "NONE",
+      "Identity": [],
+      "IDENTITY_COLUMN": "NO",
+      "INTERNAL_COLUMN_ID": 4.0,
+      "NULLABLE": "Y",
+      "QUALIFIED_COL_NAME": "FEATURE_2",
+      "SEGMENT_COLUMN_ID": 4.0,
+      "TABLE_NAME": "ANIMALS",
+      "TYPE": "TABLE",
+      "UNUSABLE_BEFORE": null,
+      "UNUSABLE_BEGINNING": null,
+      "USER_GENERATED": "YES",
+      "VIRTUAL_COLUMN": "NO"
     }
   ],
   "Table_Constraints": [
@@ -111,12 +143,12 @@
       "Columns": [
         {
           "COLUMN_NAME": "PERSON_ID",
-          "CONSTRAINT_NAME": "SYS_C007898",
+          "CONSTRAINT_NAME": "SYS_C007954",
           "POSITION": null,
           "TABLE_NAME": "ANIMALS"
         }
       ],
-      "CONSTRAINT_NAME": "SYS_C007898",
+      "CONSTRAINT_NAME": "SYS_C007954",
       "CONSTRAINT_TYPE": "C",
       "DEFERRABLE": "NOT DEFERRABLE",
       "DEFERRED": "IMMEDIATE",
@@ -139,12 +171,12 @@
       "Columns": [
         {
           "COLUMN_NAME": "FIRST_NAME",
-          "CONSTRAINT_NAME": "SYS_C007913",
+          "CONSTRAINT_NAME": "SYS_C007955",
           "POSITION": null,
           "TABLE_NAME": "ANIMALS"
         }
       ],
-      "CONSTRAINT_NAME": "SYS_C007913",
+      "CONSTRAINT_NAME": "SYS_C007955",
       "CONSTRAINT_TYPE": "C",
       "DEFERRABLE": "NOT DEFERRABLE",
       "DEFERRED": "IMMEDIATE",
@@ -167,12 +199,12 @@
       "Columns": [
         {
           "COLUMN_NAME": "LAST_NAME",
-          "CONSTRAINT_NAME": "SYS_C007914",
+          "CONSTRAINT_NAME": "SYS_C007956",
           "POSITION": null,
           "TABLE_NAME": "ANIMALS"
         }
       ],
-      "CONSTRAINT_NAME": "SYS_C007914",
+      "CONSTRAINT_NAME": "SYS_C007956",
       "CONSTRAINT_TYPE": "C",
       "DEFERRABLE": "NOT DEFERRABLE",
       "DEFERRED": "IMMEDIATE",
@@ -195,12 +227,12 @@
       "Columns": [
         {
           "COLUMN_NAME": "PERSON_ID",
-          "CONSTRAINT_NAME": "SYS_C007915",
+          "CONSTRAINT_NAME": "SYS_C007957",
           "POSITION": 1.0,
           "TABLE_NAME": "ANIMALS"
         }
       ],
-      "CONSTRAINT_NAME": "SYS_C007915",
+      "CONSTRAINT_NAME": "SYS_C007957",
       "CONSTRAINT_TYPE": "P",
       "DEFERRABLE": "NOT DEFERRABLE",
       "DEFERRED": "IMMEDIATE",
@@ -229,7 +261,7 @@
           "COLUMN_NAME": "PERSON_ID",
           "COLUMN_POSITION": 1.0,
           "DESCEND": "ASC",
-          "INDEX_NAME": "SYS_C007915",
+          "INDEX_NAME": "SYS_C007957",
           "TABLE_NAME": "ANIMALS"
         }
       ],
@@ -238,7 +270,7 @@
       "Expression": [],
       "GENERATED": "Y",
       "INCLUDE_COLUMN": null,
-      "INDEX_NAME": "SYS_C007915",
+      "INDEX_NAME": "SYS_C007957",
       "INDEX_TYPE": "NORMAL",
       "INI_TRANS": 2.0,
       "IOT_REDUNDANT_PKEY_ELIM": "NO",
